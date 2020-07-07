@@ -1,0 +1,83 @@
+to do:
+
+NEED TO MAKE SURE FIELDS THAT CAN BE ENTERED AND STORED IN SQL ARE UNDER THEIR SIZE LIMIT IN SQL!!~!
+
+
+
+
+null pointer exception in webdispatcch line 71
+
+
+text areas post an array of strings, not a single string
+	needed for submitNewIssue description, comments
+	ignored
+
+Input validation for text fields
+	Text areas are unvalidated but unused
+
+
+
+Change login page alerts into page content, maybe in different colours
+
+add remove issue button to resolved issues
+
+lang attribute to html start tag
+
+
+
+
+
+
+=======Laterish:===========
+
+
+
+
+Photoshop Jim (crossed eyes error page, invert smile)
+
+remove troubleshooty h1's from tops of jsps
+	They're really only there for when we first get them displaying
+
+Make sure labels have for="id" of their respective element - id's will need to be different between jsps, in particular the dashboard included pages
+
+
+
+
+
+
+
+
+
+=========Later:============
+
+	Submit issue button has it's conditions commented out
+		Once we know it displays correctly, uncomment the conditions
+
+	Write javascript where needed
+
+	Do the css layout
+		div class="tag" needs a background colour, border, padding
+		table list elements should have some background colour alternation
+			Also adjust input field widths
+		scrollable sub-sections(done)
+
+	Verify for character lengths in the sql:
+		comment content 255
+		issue description 255
+		tags 15
+
+
+
+
+
+
+
+==========Laterer:============
+	Validate HTML
+	Replace scriptlets with JSTL, JSP EL (expression language), bean.getAttribute
+	Change KnowledgeBaseIssue to have the same formatting without needing to be in a form?
+	Pretty up the css
+
+	Photoshop Dylan on to Jim's face for secret page
+	CSS self-destruct button
+
